@@ -27,21 +27,22 @@ function VoiceSynthesizer({
   }, []);
 
   useEffect(() => {
-    if (!state.response || !synth) return;
-
+    if (!state || !state.response || !synth) return; // Added null checks for state and state.response
+  
     const wordsToSay = new SpeechSynthesisUtterance(state.response);
-
+  
     wordsToSay.voice = voice;
     wordsToSay.pitch = pitch;
     wordsToSay.rate = rate;
     wordsToSay.volume = volume;
-
+  
     synth.speak(wordsToSay);
-
+  
     return () => {
       synth.cancel();
     };
   }, [state, voice, pitch, rate, volume, synth]);
+  
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
