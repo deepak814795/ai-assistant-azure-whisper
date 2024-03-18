@@ -18,6 +18,9 @@ This project integrates Microsoft Azure, OpenAI's GPT-4.0 model, and Whisper AI 
 
 - **Output**:  Users receive the response in the form of natural-sounding speech.
 
+![Screenshot (1079)](https://github.com/deepak814795/ai-assistant-azure-whisper/assets/91387970/093aa6b0-335f-4ba6-8524-e2eac9639e02)
+
+
 
 
 ## Why use Azure OpenAI services instead of the Whisper API key?
