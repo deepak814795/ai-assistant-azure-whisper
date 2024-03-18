@@ -1,4 +1,4 @@
-# Audify (Azure AI Voice Assistant )
+# Audify (Azure Whisper AI + GPT 4.0 Voice Assistant )
 
 ### Live Link - [https://ai-assistant-deepak-kushwaha.vercel.app/](https://ai-assistant-deepak-kushwaha.vercel.app/)
 
