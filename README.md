@@ -1,6 +1,6 @@
 # Audify (Azure Whisper AI + GPT 4.0 Voice Assistant )
 
-### Live Link - [https://ai-assistant-deepak-kushwaha.vercel.app/](https://ai-assistant-deepak-kushwaha.vercel.app/)
+### Live Link - [https://ai-assistant-deepak-kushwaha.vercel.app/](https://ai-assistant-deepak-kushwaha-git-main-deepak4034.vercel.app/)
 
 ## Overview:
 This project integrates Microsoft Azure, OpenAI's GPT-4.0 model, and Whisper AI for automatic speech recognition (ASR) and text generation tasks. The system accepts audio input from users, processes it through Whisper AI for transcription into text format, utilizes GPT-4.0 for generating responses based on the transcribed text, and finally converts the response back into audio format using Whisper AI.
