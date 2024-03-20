@@ -61,7 +61,7 @@ function Messages({ messages }: Props) {
 
         {!messages.length && (
           <div className="flex flex-col space-y-10 flex-1 items-center justify-end pl-6">
-            <p className="text-gray-500 animate-pulse">Start a conversation</p>
+            <p className="text-white animate-pulse font-mono fone-semibold">Scroll to know How to use ?</p>
             <ChevronDownCircle
               size={64}
               className="animate-bounce text-gray-500"

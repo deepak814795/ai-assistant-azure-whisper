@@ -9,6 +9,8 @@ import Messages from "@/components/Messages";
 import { SettingsIcon } from "lucide-react";
 import Image from "next/image";
 import mee from "@/img/mee.jpg"
+import Audify from "@/img/Audify.svg"
+import Usecase from "@/components/Usecase";
 
 const initialState = {
   sender: "",
@@ -82,15 +84,26 @@ export default function Home() {
           className="rounded-3xl"
         />
 
+        <Image
+          src={Audify.src}
+          alt="Logo"
+          width={200}
+          height={200}
+          className="rounded-3xl"
+        />
+
+
+        
+
         <SettingsIcon
-          className="p-2 m-2 rounded-full cursor-pointer bg-purple-600 text-black transition-all ease-in-out duration-150 hover:bg-purple-700 hover:text-white"
+          className="p-2 m-2 rounded-full cursor-pointer bg-white text-black transition-all ease-in-out duration-150 hover:bg-purple-700 hover:text-white"
           onClick={() => setDisplaySettings(!displaySettings)}
           size={40}
         />
       </header>
 
       <form action={formAction} className="flex flex-col bg-black">
-        <div className="flex-1 bg-gradient-to-b from-purple-500 to-black">
+        <div className="flex-1 bg-gradient-to-b from-indigo-500 to-black">
           <Messages messages={messages} />
         </div>
 
@@ -104,6 +117,15 @@ export default function Home() {
           </div>
         </div>
       </form>
+
+
+
+    <Usecase/>
+      
+
+
+
+
     </main>
   );
 }

@@ -2,11 +2,14 @@
 
 ### Live Link - [https://ai-assistant-deepak-kushwaha.vercel.app/](https://ai-assistant-deepak-kushwaha-git-main-deepak4034.vercel.app/)
 
+***Note*** : ***The application might crash due to 10 seconds runtime limit on server actions on  vercel&apos;s free plan, in case of crash just refresh the page.***
+
+***Note*** : ***Try to speak lound and clear in a surrounding with low noise or else your actual response might vary.***
+
 ## Overview:
 This project integrates Microsoft Azure, OpenAI's GPT-4.0 model, and Whisper AI for automatic speech recognition (ASR) and text generation tasks. The system accepts audio input from users, processes it through Whisper AI for transcription into text format, utilizes GPT-4.0 for generating responses based on the transcribed text, and finally converts the response back into audio format using Whisper AI Model.
 
 #### Whisper is an automatic speech recognition (ASR) system trained on 680,000 hours of multilingual and multitask supervised data collected from the web.
-
 
 
 ## Workflow :
@@ -25,8 +28,6 @@ This project integrates Microsoft Azure, OpenAI's GPT-4.0 model, and Whisper AI 
 ![Screenshot (1079)](https://github.com/deepak814795/ai-assistant-azure-whisper/assets/91387970/093aa6b0-335f-4ba6-8524-e2eac9639e02)
 
 ***[https://openai.com/research/whisper](https://openai.com/research/whisper)***
-
-
 
 
 ## Why use Azure OpenAI services instead of the Whisper API key?

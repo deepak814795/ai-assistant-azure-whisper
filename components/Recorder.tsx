@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import activeAssistantIcon from "@/img/active.gif";
-import notActiveAssistantIcon from "@/img/notactive.jpg";
+import activeAssistantIcon from "@/img/activec.gif";
+import notActiveAssistantIcon from "@/img/Start.png";
 import { useFormStatus } from "react-dom";
 
 const mimeType = "audio/webm";
@@ -79,7 +79,7 @@ function Recorder({ uploadAudio }: { uploadAudio: (blob: Blob) => void }) {
   };
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center h-[130px]">
       {!permission ? (
         <button onClick={getMicrophonePermission} type="button">
           Get Microphone
@@ -90,8 +90,8 @@ function Recorder({ uploadAudio }: { uploadAudio: (blob: Blob) => void }) {
         <Image
           src={activeAssistantIcon}
           alt="Recording"
-          width={350}
-          height={350}
+          width={300}
+          height={300}
           onClick={stopRecording}
           priority={true}
           className="assistant grayscale"
@@ -102,8 +102,8 @@ function Recorder({ uploadAudio }: { uploadAudio: (blob: Blob) => void }) {
         <Image
           src={notActiveAssistantIcon}
           alt="Not Recording"
-          width={350}
-          height={350}
+          width={300}
+          height={300}
           onClick={startRecording}
           priority={true}
           className="assistant cursor-pointer hover:scale-110 duration-150 transition-all ease-in-out"
@@ -113,8 +113,8 @@ function Recorder({ uploadAudio }: { uploadAudio: (blob: Blob) => void }) {
         <Image
           src={activeAssistantIcon}
           alt="Recording"
-          width={350}
-          height={350}
+          width={300}
+          height={300}
           onClick={stopRecording}
           priority={true}
           className="assistant cursor-pointer hover:scale-110 duration-150 transition-all ease-in-out"
