@@ -1,8 +1,8 @@
 # Audify (Azure Whisper AI + GPT 4.0 Voice Assistant )
 
-### Live Link - [https://audify-ai-deepak-kushwaha.onrender.com/](https://audify-ai-deepak-kushwaha.onrender.com/)
+### Live Link - [https://ai-assistant-deepak-kushwaha.vercel.app/](https://ai-assistant-deepak-kushwaha.vercel.app/)
 
-***Note*** : ***The application might crash due to 10 seconds runtime limit on server actions on API call on free plan, in case of crash just refresh the page.***
+***Note*** : ***The application might crash due to 10 seconds runtime limit on API call on free vercel's plan, in case of crash just refresh the page.***
 
 ***Note*** : ***Try to speak lound and clear in a surrounding with low noise or else your actual response might vary.***
 
