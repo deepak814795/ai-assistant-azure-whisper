@@ -51,7 +51,7 @@ npm install
 
 
 ```bash
-// example env file
+// example env files
 
 AZURE_API_KEY=
 
