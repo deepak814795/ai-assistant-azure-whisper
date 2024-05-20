@@ -32,7 +32,6 @@ This project integrates Microsoft Azure, OpenAI's GPT-4.0 model, and Whisper AI 
 
 ## Why use Azure OpenAI services instead of the Whisper API key?
 
-## Answer:
 Azure OpenAI services offer several advantages over the Whisper API key. Firstly, Azure OpenAI services provide faster processing speeds for text processing tasks. With Azure, the system can process up to 3 audio messages per minute, allowing for quicker turnaround times in converting audio to text and generating responses.
 
 Additionally, Azure offers scalability through its cloud services infrastructure. This scalability ensures that the system can handle increasing workloads and adapt to changing demands without compromising performance. By leveraging Azure's cloud services, the application can efficiently scale resources as needed, optimizing resource utilization and maintaining high levels of performance and reliability.
