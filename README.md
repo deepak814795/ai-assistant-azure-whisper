@@ -13,7 +13,7 @@ This project integrates Microsoft Azure, OpenAI's GPT-4.0 model, and Whisper AI 
 
 
 ## Workflow :
-**Input**: Users provide audio input to the system. This can be in various formats supported by Whisper AI.
+**Input**: Users provide audio input to the system. This can be in various formats supported by Whisper AI LLM.
 
  **Processing**: Whisper AI processes the audio input, breaking it down into smaller chunks and transcribing them into text format.
 
